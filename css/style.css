@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #cbd2c6;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9dad94;
+  color: black;
+  font-size: 18px;
+  width: auto;
+  height: 50px;
+  margin-top: auto;
+}
+
+footer a {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #3c4536;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+}
+
+.buttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+}
+
+.blackColor,
+.clearGrid,
+.eraser,
+.randomColor {
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 14px;
+}
+
+h1 {
+  color: #484848;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.container {
+  display: grid;
+  height: 500px;
+  width: 500px;
+  margin-bottom: 24px;
+}
+
+.container div {
+  border: 1px solid black;
+}
